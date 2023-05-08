@@ -1,0 +1,6 @@
+1. menambah titik di depan cta pada line 47
+2. menghilangkan/menghapus command pada line 141
+3. mengubah nav ul ul lu menjadi --> nav ul ul ul pada line 125
+4. menghapus line 218
+5. menambah row pada flex-direction di line 36
+6. menambah src="UTS%20PPW1_files/150.png" di line 186

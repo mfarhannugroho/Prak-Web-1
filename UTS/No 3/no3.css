@@ -1,0 +1,20 @@
+.judul {
+    background-color: darkcyan;
+    font-weight: bold;
+    align-self: center;
+}
+
+.nama {
+    background-color:crimson;
+    color: white;
+}
+
+.alamat {
+    background-color: aqua;
+}
+
+.gambar {
+    background-image: url(dodo2.jpeg);
+    width: 200px;
+    height: 200px;
+}

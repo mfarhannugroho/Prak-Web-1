@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color:antiquewhite,#d90000;
+			background: linear-gradient(to top, #ffb048, #da0000);
+		}
+		img {
+			border-radius: 8px;
+		}
+		h2 {
+			text-align: center;
+		}
+		form {
+			max-width: 500px;
+			margin: 50px auto;
+			background-color: #fff5d6;
+			padding: 20px;
+			box-shadow: 0 0 5px #000000;
+		}
+		.form-group {
+			margin-bottom: 20px;
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		input[type=text], input[type=email], select, textarea {
+			display: block;
+			background-color: #ffffff;
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			resize: vertical;	
+		}
+		input[type=submit] {
+			display: block;
+			background-color: #da0000;
+			color: #ffff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 40px;
+		}
+		input[type=submit]:hover {
+			background-color: #313cfd;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<img src="GO2.png" width="100%" height="100%">
+		<h2>Form Pendaftaran Bimbel GO</h2>
+		<div class="form-group">
+			<label for="name">Nama:</label>
+			<input type="text" id="name" name="name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+
+		<div class="form-group">
+			<label for="phone">Nomor Telepon:</label>
+			<input type="text" id="phone" name="phone" required>
+		</div>
+
+		<div class="form-group">
+			<label for="address">Alamat:</label>
+			<textarea id="address" name="address" rows="4" required></textarea>
+		</div>
+
+		<div class="form-group">
+			<label for="school">Nama Sekolah:</label>
+			<input type="text" id="school" name="school" required>
+		</div>
+
+		<div class="form-group">
+			<label for="grade">Kelas:</label>
+			<select id="grade" name="grade" required>
+				<option value="">Pilih Kelas</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+		<input type="submit" value="Daftar">
+	</form>
+</body>
