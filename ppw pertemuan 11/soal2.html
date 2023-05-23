@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Informasi Praktikan PPW1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Informasi Praktikan PPW1</h1>
+
+    <script>
+      var isPraktikanPPW1 = confirm("Apakah Anda praktikan PPW1?");
+      
+      if (isPraktikanPPW1) {
+        var nama = prompt("Masukkan Nama:");
+        var nim = prompt("Masukkan NIM:");
+        var angkatan = prompt("Masukkan Angkatan:");
+        
+        document.write(`
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Angkatan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>${nama}</td>
+                <td>${nim}</td>
+                <td>${angkatan}</td>
+              </tr>
+            </tbody>
+          </table>
+        `);
+      } else {
+        document.write("<p>Anda bukan praktikan PPW1, Anda tidak boleh masuk!</p>");
+      }
+    </script>
+
+  </div>
+</body>
+</html>
